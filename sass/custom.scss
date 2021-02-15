@@ -1,1 +1,22 @@
+$primary:       hsl(234, 12%, 34%);
+$secondary:     hsl(229, 6%, 66%);
+$success:       hsl(180, 62%, 55%);
+$info:          hsl(212, 86%, 64%);
+$warning:       hsl(34, 97%, 64%);
+$danger:        hsl(0, 78%, 62%);
+$light:         hsl(0, 0%, 98%);
+
+$body-color: $primary;
+
+$font-weight-light:           200 !default;
+$font-weight-normal:          400 !default;
+$font-weight-bold:            600 !default;
+
+
+$font-family-sans-serif:  'Poppins', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+.card-text-font {
+  font-size: 12px
+}
+
 @import "../node_modules/bootstrap/scss/bootstrap";
